@@ -39,7 +39,7 @@ def alan_kay_is_known_for
         }
      }
      puts programmer_hash[:alan_kay][:known_for]
-     programmer_hash[:alan_kay][:known_for]
+     programmer_hash
 end
 
 def dennis_ritchies_language
@@ -58,9 +58,9 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     puts programmer_hash[:dennis_ritchie][:languages]
-     return programmer_hash[:dennis_ritchie][:languages]
-end
+     puts programmer_hash]
+     return programmer_hash
+     end
 
 def adding_matz
 # add the following information to the top level of programmer_hash
@@ -86,7 +86,7 @@ def adding_matz
         }     
  		}
  		puts programmer_hash[:yukihiro_matsumoto]
- 		return programmer_hash[:yukihiro_matsumoto]
+ 		return programmer_hash
  		
 end
 
