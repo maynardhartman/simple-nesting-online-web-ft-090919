@@ -58,7 +58,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     puts programmer_hash]
+     puts programmer_hash
      return programmer_hash
      end
 
@@ -89,6 +89,7 @@ def adding_matz
  		return programmer_hash
  		
 end
+
 
 def changing_alan
 	programmer_hash = 
